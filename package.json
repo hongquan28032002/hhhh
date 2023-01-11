@@ -1,11 +1,16 @@
 {
   "name": "node-module",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Lite-Server in NodeJS",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
-  "author": "",
+  "keywords": [
+    "web-server"
+  ],
+  "author": "QuanNH",
   "license": "ISC"
 }
